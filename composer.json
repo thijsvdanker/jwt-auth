@@ -18,11 +18,17 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thijsvdanker/jose"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.*",
         "illuminate/http": "5.1.*",
-        "namshi/jose": "6.0.*",
+        "namshi/jose": "dev-update-phpseclib",
         "nesbot/carbon": "~1.0"
     },
     "require-dev": {
